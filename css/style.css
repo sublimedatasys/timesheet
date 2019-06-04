@@ -11016,6 +11016,7 @@ ul.breadcrumb{
 }
 
 .floatingButtonInner {
+  margin-left: 12px;
   /* position: relative; */
 }
 i{
@@ -11584,7 +11585,14 @@ and (max-width : 812px)
     overflow-x: auto;
     display: block;
 }
-
+a.btn.btn-primary.btn-lg.font-weight-medium{
+  width: 100%;
+  text-align:center;
+}
+a.btn.btn-default.btn-lg.font-weight-medium{
+  width: 100%;
+  text-align:center;
+}
 }
 
 @media (max-width: 575.98px) {
@@ -24646,4 +24654,7 @@ table.table.table-primary.table-responsive {
 }
 .Colm-style td:first-child{
   min-width: 141px;
+}
+table td:last-child{
+  min-width: 120px;
 }
