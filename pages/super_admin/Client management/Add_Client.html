@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Add Client</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../../vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../../vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../../images/infiniti-creation.png" />
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="navbar-brand-wrapper d-flex justify-content-center">
+        <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
+          <a class="navbar-brand brand-logo" href="../../../index.html"><img src="../../../images/infiniti-creation.png"
+              alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="../../../index.html"><img src="../../../images/infiniti-creation.png"
+              alt="logo" /></a>
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-sort-variant"></span>
+          </button>
+        </div>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <div class="header-style">
+          <a class="navbar-brand brand-logo" href="../Client management/Client_management.html">
+          <h4>Add Client</h4>
+
+          </a>
+        </div>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown mr-1">
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
+            </div>
+          </li>
+         
+          <li class="nav-item nav-profile dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                  <img src="../../../images/faces/face5.jpg" alt="profile" />
+                  <span class="nav-profile-name">Louis Barnett</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
+                  aria-labelledby="profileDropdown">
+                  <a class="dropdown-item" href="../Profile/Profile.html">
+                      <i class="mdi mdi-account-check text-primary"></i>
+                      Profile
+                  </a>
+                  <a class="dropdown-item" href="../Profile/Changepwd.html">
+                          <i class="mdi mdi-account-key text-primary"></i>
+                          Change Password
+                      </a>
+                  <a class="dropdown-item" href="../LoginProcess/login.html">
+                      <i class="mdi mdi-logout text-primary"></i>
+                      Logout
+                  </a>
+              </div>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+          data-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <i class="mdi mdi-home menu-icon"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">
+              <i class="mdi mdi-view-headline menu-icon"></i>
+              <span class="menu-title">Timesheet</span>
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Client management/Client_management.html">
+              <i class="mdi mdi-view-headline menu-icon"></i>
+              <span class="menu-title"> Client Management</span>
+            </a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="">
+                  <i class="mdi mdi-view-headline menu-icon"></i>
+                  <span class="menu-title">Prject & Task Management</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="">
+                      <i class="mdi mdi-view-headline menu-icon"></i>
+                      <span class="menu-title">Team Management</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="">
+                          <i class="mdi mdi-view-headline menu-icon"></i>
+                          <span class="menu-title">Role Management</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" href="">
+                              <i class="mdi mdi-view-headline menu-icon"></i>
+                              <span class="menu-title">User Management</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="">
+                                  <i class="mdi mdi-view-headline menu-icon"></i>
+                                  <span class="menu-title">Reports</span>
+                                </a>
+                              </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrappers">
+          <div class="row">
+            <div class="col-12 grid-margin boxshadow">
+              <div class="card boxshadow">
+                <div class="card-body">
+                  
+                  <h4 class="card-title">Add Client</h4>
+                  <form class="form-sample">
+
+                    <div class="row">
+
+                      <div class="col-md-12">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label">Client Name <span class="require">*</span>
+                            :</label>
+                          <div class="col-sm-12">
+                            <input type="text" placeholder="Client Name " class="form-control" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label">Description:</label>
+                          <div class="col-md-12">
+                            <textarea rows="8" cols="100" class="form-control" >
+                            
+                              </textarea>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="row row-style">
+                        <div class="col-md-6">
+                          <a class="btn  btn-primary btn-lg font-weight-medium "
+                            href="../Client management/Client_management.html">Submit</a>
+                        </div>
+                        <div class="col-md-6">
+                          <a class="btn  btn-default btn-lg font-weight-medium "
+                            href="../Client management/Client_management.html">Cancel</a>
+                        </div>
+                      </div>
+  
+
+                 
+                  </form>
+                </div>
+              </div>
+            </div>
+           
+
+
+
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted text-sm-left d-block d-sm-inline-block">Copyright © 2019 <a
+                href="https://www.\.com/" target="_blank">Infiniti Creation</a>. All rights reserved.</span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../../../vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- inject:js -->
+  <script src="../../..js/off-canvas.js"></script>
+  <script src="../../../js/hoverable-collapse.js"></script>
+  <script src="../../../js/template.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+
+</body>
+
+</html>

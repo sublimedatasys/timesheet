@@ -10950,7 +10950,7 @@ thead.table-name {
   width: 100%;
   justify-content: space-between;
   background-color: #f3f3f3;
- 
+  margin-bottom: 12px;
   margin-left: 27px;
 }
 ul.breadcrumb{
@@ -11018,7 +11018,9 @@ ul.breadcrumb{
 .floatingButtonInner {
   /* position: relative; */
 }
-
+i{
+margin-right: 6px;
+}
 .floatingButton {
   display: block;
   width: 131px;
@@ -11038,6 +11040,8 @@ ul.breadcrumb{
   opacity: 1;
   /* margin-bottom: 52px; */
   transition: all 0.4s;
+
+  font-size: 15px;
 }
 
 .floatingButton .fa {
