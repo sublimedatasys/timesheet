@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Timesheet</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../vendors/base/vendor.bundle.base.css">
+
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/infiniti-creation.png" />
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="navbar-brand-wrapper d-flex justify-content-center">
+        <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
+          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/infiniti-creation.png"
+              alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/infiniti-creation.png"
+              alt="logo" /></a>
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-sort-variant"></span>
+          </button>
+        </div>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <div class="header-style">
+          <h4>Timesheet</h4>
+        </div>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown mr-1">
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
+                <li class="nav-item nav-profile dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                        <img src="../../images/faces/face5.jpg" alt="profile" />
+                        <span class="nav-profile-name">Louis Barnett</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
+                        aria-labelledby="profileDropdown">
+                        <a class="dropdown-item" href="../Profile/Profile.html">
+                            <i class="mdi mdi-account-check text-primary"></i>
+                            Profile
+                        </a>
+                        <a class="dropdown-item" href="../Profile/Changepwd.html">
+                                <i class="mdi mdi-account-key text-primary"></i>
+                                Change Password
+                            </a>
+                        <a class="dropdown-item" href="../LoginProcess/login.html">
+                            <i class="mdi mdi-logout text-primary"></i>
+                            Logout
+                        </a>
+                    </div>
+                </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+          data-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">
+                <i class="mdi mdi-home menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../super_admin/timesheet.html">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title">Timesheet</span>
+              </a>
+  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../super_admin/client management/client_management.html">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title"> Client Management</span>
+              </a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="mdi mdi-view-headline menu-icon"></i>
+                    <span class="menu-title">Prject & Task Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="mdi mdi-view-headline menu-icon"></i>
+                        <span class="menu-title">Team Management</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                          <a class="nav-link" href="#">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Role Management</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="mdi mdi-view-headline menu-icon"></i>
+                                <span class="menu-title">User Management</span>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                                  <a class="nav-link" href="#">
+                                    <i class="mdi mdi-view-headline menu-icon"></i>
+                                    <span class="menu-title">Reports</span>
+                                  </a>
+                                </li>
+          </ul>
+        </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper main">
+        <div class="grid-margin">
+          <h2>Timesheet</h2>
+          <div class="date-row">
+              <div class="row">
+                <div class="col-md-6 offset-md-3 text-right">
+                  <p class="dates">Week 21, 19 May 2019 - 25 May 2019</p>
+                </div>
+                <div class="col-md-3 text-right">
+                    <button type="button" class="btn btn-inverse-dark btn-icon d-inline">
+                      <i class="mdi mdi-chevron-left"></i>
+                    </button>
+                    <p class="d-inline square-text">This Week</p>
+                    <button type="button" class="btn btn-inverse-dark btn-icon d-inline">
+                      <i class="mdi mdi-chevron-right"></i>
+                    </button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <table class="table table-primary table-responsive">
+          <thead>
+            <tr class="header-style">
+              <th class="header" scope="col" role="columnheader"></th>
+              <th class="header" scope="col" role="columnheader"><span>Sun 19</span></th>
+              <th class=" header" scope="col" role="columnheader"><span>Mon 20 </span></th>
+              <th class=" header" scope="col" role="columnheader"><span>Tue 21 </span></th>
+              <th class=" header" scope="col" role="columnheader"><span>Wed 22 </span></th>
+              <th class=" header" scope="col" role="columnheader"><span>Thu 23 </span></th>
+              <th class=" header" scope="col" role="columnheader"><span>Fri 24</span></th>
+              <th class=" header" scope="col" role="columnheader"><span>Sat 25</span></th>
+              <th class=" header" scope="col" role="columnheader"><span>Total</span></th>
+            </tr>
+          </thead>
+          <tbody>
+              <tr class="Colm-style">
+                  <th class="head">project 1</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+            <tr class="Colm-style">
+              <td>Task 1</td>
+              <th><input type="text" name="whatevere" class="timesheet-input"></th>
+              <th><input type="text" name="whatevere" class="timesheet-input"></th>
+              <th><input type="text" name="whatevere" class="timesheet-input"></th>
+              <th><input type="text" name="whatevere" class="timesheet-input"></th>
+              <th><input type="text" name="whatevere" class="timesheet-input"></th>
+              <th><input type="text" name="whatevere" class="timesheet-input"></th>
+              <th><input type="text" name="whatevere" class="timesheet-input"></th>
+              <th>18:00</th>
+            </tr>
+            <tr class="Colm-style">
+                <td>Task 2</td>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th>18:00</th>
+              </tr>
+              <tr class="Colm-style">
+                  <th class="head"> project 2</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr class="Colm-style">
+                    <td>Task 1</td>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th>18:00</th>
+                  </tr>
+                  <tr class="Colm-style">
+                      <th>Total</th>
+                      <th>18:00</th>
+                      <th>27:00</th>
+                      <th>27:00</th>
+                      <th>00.00</th>
+                      <th>00.00</th>
+                      <th>00.00</th>
+                      <th>00.00</th>
+                      <th>54.00</th>
+                    </tr>
+        </table>
+
+        
+       
+        </div>
+
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted  text-sm-left d-block d-sm-inline-block">Copyright © 2019 <a
+                href="https://www.\.com/" target="_blank">Infiniti Creation</a>. All rights reserved.</span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- main-panel ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  </div>
+  <!-- plugins:js -->
+  <script src="../../vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/hoverable-collapse.js"></script>
+  <!-- data-toggle -->
+  <script src="../../js/template.js"></script>
+  <script src="../../js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+  <style>
+ 
+  </style>
+</body>
+
+</html>
