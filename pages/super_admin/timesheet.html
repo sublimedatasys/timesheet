@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Tenant Admin</title>
+  <title>Timesheet</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -37,7 +37,7 @@
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <div class="header-style">
-          <h4>Tenant Admin Dashboard </h4>
+          <h4>Timesheet</h4>
         </div>
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item dropdown mr-1">
@@ -74,30 +74,61 @@
     <div class="container-fluid page-body-wrapper">
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="../Tenant_Admin/Tenant_Admin.html">
-              <i class="mdi mdi-home menu-icon"></i>
-              <span class="menu-title">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../User_Management/User_Management.html">
-              <i class="mdi mdi-account-outline menu-icon"></i>
-              <span class="menu-title">Admin User Management</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../LoginProcess/login.html">
-              <i class="mdi mdi-view-headline menu-icon"></i>
-              <span class="menu-title"> Reports</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.html">
+                <i class="mdi mdi-home menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../super_admin/timesheet.html">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title">Timesheet</span>
+              </a>
+  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../super_admin/client management/client_management.html">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title"> Client Management</span>
+              </a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="mdi mdi-view-headline menu-icon"></i>
+                    <span class="menu-title">Prject & Task Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="mdi mdi-view-headline menu-icon"></i>
+                        <span class="menu-title">Team Management</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                          <a class="nav-link" href="#">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Role Management</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="mdi mdi-view-headline menu-icon"></i>
+                                <span class="menu-title">User Management</span>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                                  <a class="nav-link" href="#">
+                                    <i class="mdi mdi-view-headline menu-icon"></i>
+                                    <span class="menu-title">Reports</span>
+                                  </a>
+                                </li>
+          </ul>
+        </nav>
       <!-- partial -->
       <div class="main-panel">
-        <div class="content-wrapper">
+        <div class="content-wrapper main">
         <div class="grid-margin">
           <h2>Timesheet</h2>
           <div class="date-row">
@@ -117,7 +148,7 @@
               </div>
           </div>
         </div>
-        <table class="table table-primary responsive">
+        <table class="table table-primary table-responsive">
           <thead>
             <tr class="header-style">
               <th class="header" scope="col" role="columnheader"></th>
@@ -132,8 +163,19 @@
             </tr>
           </thead>
           <tbody>
+              <tr class="Colm-style">
+                  <th class="head">project 1</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
             <tr class="Colm-style">
-              <th>Project 1</th>
+              <td>Task 1</td>
               <th><input type="text" name="whatevere" class="timesheet-input"></th>
               <th><input type="text" name="whatevere" class="timesheet-input"></th>
               <th><input type="text" name="whatevere" class="timesheet-input"></th>
@@ -141,34 +183,56 @@
               <th><input type="text" name="whatevere" class="timesheet-input"></th>
               <th><input type="text" name="whatevere" class="timesheet-input"></th>
               <th><input type="text" name="whatevere" class="timesheet-input"></th>
-              <th>30</th>
+              <th>18:00</th>
             </tr>
+            <tr class="Colm-style">
+                <td>Task 2</td>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                <th>18:00</th>
+              </tr>
+              <tr class="Colm-style">
+                  <th class="head"> project 2</th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                  <th></th>
+                </tr>
+                <tr class="Colm-style">
+                    <td>Task 1</td>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th><input type="text" name="whatevere" class="timesheet-input"></th>
+                    <th>18:00</th>
+                  </tr>
+                  <tr class="Colm-style">
+                      <th>Total</th>
+                      <th>18:00</th>
+                      <th>27:00</th>
+                      <th>27:00</th>
+                      <th>00.00</th>
+                      <th>00.00</th>
+                      <th>00.00</th>
+                      <th>00.00</th>
+                      <th>54.00</th>
+                    </tr>
         </table>
 
-        <div class="col-xs-12 col-sm-12 col-md-5">
-          <div class="dataTables_info" id="dom-jqry_info" role="status" aria-live="polite">Showing 5 entries Out of
-            23
-          </div>
-        </div>
-        <div>
-          <div class="dataTables_paginate paging_simple_numbers" id="dom-jqry_paginate">
-            <ul class="pagination">
-              <li class="paginate_button page-item previous disabled" id="dom-jqry_previous"><a href="#"
-                  aria-controls="dom-jqry" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
-              </li>
-              <li class="paginate_button page-item active"><a href="../Tenant_Admin/Tenant_Admin.html"
-                  aria-controls="dom-jqry" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
-              <li class="paginate_button page-item "><a href="../Tenant_Admin/Tenant_Admin.html"
-                  aria-controls="dom-jqry" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
-              <li class="paginate_button page-item "><a href="#" aria-controls="dom-jqry" data-dt-idx="2"
-                  tabindex="0" class="page-link">3</a></li>
-              <li class="paginate_button page-item "><a href="#" aria-controls="dom-jqry" data-dt-idx="2"
-                  tabindex="0" class="page-link">4</a></li>
-              <li class="paginate_button page-item next" id="dom-jqry_next"><a href="#" aria-controls="dom-jqry"
-                  data-dt-idx="3" tabindex="0" class="page-link">Next</a></li>
-            </ul>
-          </div>
-        </div>
+        
+       
         </div>
 
         <!-- partial:../../partials/_footer.html -->

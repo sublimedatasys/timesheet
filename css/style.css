@@ -10924,7 +10924,9 @@ div#dom-jqry_info {
   float: left;
   width: 17%;
 }
-
+.main-panel{
+  padding:20px;
+}
 div#dom-jqry_paginate {
   float: right;
   width: 26%;
@@ -11095,7 +11097,9 @@ ul.breadcrumb{
   margin-right: 10px;
   text-decoration: none;
 }
-
+.table {
+  width: 100%;
+}
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -11869,7 +11873,7 @@ textarea.form-control {
 .table>tbody>tr th:first-of-type,
 .table>thead>tr td:first-of-type,
 .table>tbody>tr td:first-of-type {
-  padding-left: 25px !important;
+  padding-left: 25px;
 }
 
 .valid-tooltip {
@@ -23916,7 +23920,15 @@ a.btn.btn-block.btn-primary.btn-lg.font-weight-mediums.auth-form-btn {
 .sidebar .nav.sub-menu .nav-item:hover {
   background: transparent;
 }
-
+table.table.table-primary.table-responsive {
+  display: table;
+}
+.table>thead>tr th:first-of-type, .table>tbody>tr th:first-of-type, .table>thead>tr td:first-of-type, .table>tbody>tr td:first-of-type
+{
+  
+    padding-left:24px!important;
+    padding-right:20px;
+  }
 /* style for off-canvas menu*/
 @media screen and (max-width: 991px) {
   .sidebar-offcanvas {
@@ -23979,7 +23991,22 @@ a.btn.btn-block.btn-primary.btn-lg.font-weight-mediums.auth-form-btn {
     width: 1.875rem;
   }
 }
-
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) {
+  .text-right{
+    text-align:center;
+  }
+  .head{
+    padding: 25px 0px 25px 0px;
+  }
+  table.table.table-primary.table-responsive {
+    display: -webkit-box;
+  }
+  .table>thead>tr th:last-of-type, .table>tbody>tr th:last-of-type, .table>thead>tr td:last-of-type, .table>tbody>tr td:last-of-type {
+    padding-right: 12px!important;
+}
+}
 .navbar .navbar-brand-wrapper .navbar-brand-inner-wrapper .navbar-brand:active,
 .navbar .navbar-brand-wrapper .navbar-brand-inner-wrapper .navbar-brand:focus,
 .navbar .navbar-brand-wrapper .navbar-brand-inner-wrapper .navbar-brand:hover {
@@ -24612,4 +24639,7 @@ a.btn.btn-block.btn-primary.btn-lg.font-weight-mediums.auth-form-btn {
 }
 .timesheet-input{
   max-width: 70px;
+}
+.Colm-style td:first-child{
+  min-width: 141px;
 }
