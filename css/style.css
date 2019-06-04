@@ -32,7 +32,7 @@
 
 .content-wrapper {
   background: #f3f3f3;
-  padding: 1.1rem 1.04rem;
+  padding: 2.1rem 1.04rem;
   width: 100%;
   -webkit-flex-grow: 1;
   flex-grow: 1;
@@ -11269,10 +11269,8 @@ table.table.table-primary.table-sortable {
 }
 
 .table {
-  width: 98.5%;
   margin-bottom: 1rem;
   color: #212529;
-  margin-left: 10px;
 }
 
 .table th,
@@ -24518,3 +24516,16 @@ a.btn.btn-block.btn-primary.btn-lg.font-weight-mediums.auth-form-btn {
   border-bottom: none;
 }
 /*# sourceMappingURL=maps/style.css.map */
+
+.date-row .square-text{
+  border: 1px solid #cccdd1;
+  padding: 10px 17px;
+  margin: 10px;
+}
+.date-row .dates{
+  padding: 2px 17px;
+  margin: 10px;  
+}
+.timesheet-input{
+  max-width: 70px;
+}
