@@ -41,7 +41,7 @@
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <div class="header-style">
           <a class="navbar-brand brand-logo" href="../User_Management/User_Management.html">
-            <h4>Edit Admin User </h4>
+            <h4>Edit User </h4>
           </a>
         </div>
         <ul class="navbar-nav navbar-nav-right">
@@ -84,30 +84,60 @@
 
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
-      <!-- partial:../../partials/_sidebar.html -->
-      <nav class="sidebar sidebar-offcanvas" id="sidebar">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="../Tenant_Admin/Tenant_Admin.html">
-              <i class="mdi mdi-home menu-icon"></i>
-              <span class="menu-title">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../User_Management/User_Management.html">
-              <i class="mdi mdi-account-outline menu-icon"></i>
-              <span class="menu-title">Admin User Management</span>
-            </a>
-
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../LoginProcess/login.html">
-              <i class="mdi mdi-view-headline menu-icon"></i>
-              <span class="menu-title"> Reports</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+        <!-- partial:../../partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../super_admin/dashboard.html">
+                <i class="mdi mdi-home menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../super_admin/timesheet.html">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title">Timesheet</span>
+              </a>
+  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../super_admin/Client management/Client_management.html">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title"> Client Management</span>
+              </a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="../super_admin/project & task management/Project_management.html ">
+                    <i class="mdi mdi-view-headline menu-icon"></i>
+                    <span class="menu-title">Prject & Task Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="mdi mdi-view-headline menu-icon"></i>
+                        <span class="menu-title">Team Management</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                          <a class="nav-link" href="../Role_Management/Role_management.html">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Role Management</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="../User_Management/User_Management.html">
+                                <i class="mdi mdi-view-headline menu-icon"></i>
+                                <span class="menu-title">User Management</span>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                                  <a class="nav-link" href="#">
+                                    <i class="mdi mdi-view-headline menu-icon"></i>
+                                    <span class="menu-title">Reports</span>
+                                  </a>
+                                </li>
+          </ul>
+        </nav>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrappers">
@@ -115,7 +145,7 @@
             <div class="col-12 grid-margin boxshadow">
               <div class="card boxshadow">
                 <div class="card-body">
-                  <h3 class="card-title">CREATE USER</h3>
+                  <h3 class="card-title">EDIT USER</h3>
                   <form class="form-sample">
                     <div class="col-sm-12 text-left">
                       <label>User ID UD001</label>
@@ -184,7 +214,7 @@
                       <div class="col-md-6">
                         <div class="form-group row">
                           <label class="col-sm-12 col-form-label">Status</label>
-                          <div class="col-sm-3">
+                          <div class="col-sm-4">
                             <div class="form-check">
                               <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="membershipRadios"

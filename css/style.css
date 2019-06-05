@@ -9823,7 +9823,9 @@ pre code {
   color: inherit;
   word-break: normal;
 }
-
+.btn-main{
+  margin-left:10px;
+}
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
@@ -9891,9 +9893,13 @@ pre code {
 }
 
 .row-style {
+  
   margin-top: 20px;
 }
-
+.row-style1{
+  margin-top: 20px;
+  margin-left:27%;
+}
 .colm-style {
   float: right;
 }
@@ -10951,7 +10957,9 @@ thead.table-name {
   justify-content: space-between;
   background-color: #f3f3f3;
   margin-bottom: 12px;
-  margin-left: 27px;
+  margin-top:10px;
+  
+  
 }
 ul.breadcrumb{
       margin-top: 29px;
@@ -11010,7 +11018,7 @@ ul.breadcrumb{
   /* bottom: 45px; */
   /* right: 45px; */
   /* z-index: 999999999; */
-  margin-right: 54px;
+  
   margin-top: -8px;
   margin-bottom: 1px;
 }
@@ -11024,7 +11032,7 @@ margin-right: 6px;
 }
 .floatingButton {
   display: block;
-  width: 131px;
+  width: 150px;
   height: 43px;
   text-align: center;
   background: -webkit-linear-gradient(45deg, #b1dce2, #00BCD4);
@@ -12289,12 +12297,14 @@ a.btn.btn-default.btn-lg.font-weight-medium {
   background-color: #80808021;
   color: #00BCD4;
   float: left;
+  
   box-shadow: 5px 10px 18px #8888884a;
 
 }
 
 a.btn.btn-primary.btn-lg.font-weight-medium {
   float: right;
+ 
   box-shadow: 5px 10px 18px #8888884a;
 }
 
@@ -24009,8 +24019,22 @@ table.table.table-primary.table-responsive {
   .text-right{
     text-align:center;
   }
+  .input-group-btn{
+    width:100%!important;
+  }
+  .input_field{
+    width:100%!important;
+  }
   .head{
     padding: 25px 0px 25px 0px;
+  }
+  
+  .btn-send{
+    width:100%;
+    margin-top: 14px;
+  }
+  .row-style1{
+    margin-left:0px;
   }
   table.table.table-primary.table-responsive {
     display: -webkit-box;
@@ -24657,4 +24681,51 @@ table.table.table-primary.table-responsive {
 }
 table td:last-child{
   min-width: 120px;
+}
+button.btn.btn-primary.dropdown-toggle{
+  padding: 10px;
+    width: 100%;
+}
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  padding: 16px;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.input_field{
+  float: left;
+  width:79%;
+  
+}
+.input-group-btn{
+  text-align: center;
+  width:21%;
+}
+.file_upload{
+  background: white!important;
+}
+.navbar{border-radius:0;}
+.navbar-toggler{border:1px solid rgba(0,0,0,0.2);}
+.navbar-toggler:hover{background:rgb(240,240,240)}
+.navbar-toggler:focus{outline:0;}
+.MenuButton{
+  font-size: 23px;
+  /* text-align: center; */
+  padding-left: 14px;
+}
+.estimate{
+  float: left;
+}
+.work{
+  float:right;
 }
