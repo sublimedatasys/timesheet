@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Project & Task Management</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../../vendors/base/vendor.bundle.base.css">
+
+  <!-- endinject -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../../images/infiniti-creation.png" />
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="navbar-brand-wrapper d-flex justify-content-center">
+        <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
+          <a class="navbar-brand brand-logo" href="../../../index.html"><img src="../../../images/infiniti-creation.png"
+              alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="../../../index.html"><img src="../../../images/infiniti-creation.png"
+              alt="logo" /></a>
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-sort-variant"></span>
+          </button>
+        </div>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <div class="header-style">
+          <h4>Client Management</h4>
+        </div>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item dropdown mr-1">
+            <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
+                <li class="nav-item nav-profile dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                        <img src="../../../images/faces/face5.jpg" alt="profile" />
+                        <span class="nav-profile-name">Louis Barnett</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
+                        aria-labelledby="profileDropdown">
+                        <a class="dropdown-item" href="../Profile/Profile.html">
+                            <i class="mdi mdi-account-check text-primary"></i>
+                            Profile
+                        </a>
+                        <a class="dropdown-item" href="../Profile/Changepwd.html">
+                                <i class="mdi mdi-account-key text-primary"></i>
+                                Change Password
+                            </a>
+                        <a class="dropdown-item" href="../LoginProcess/login.html">
+                            <i class="mdi mdi-logout text-primary"></i>
+                            Logout
+                        </a>
+                    </div>
+                </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+          data-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../dashboard.html">
+              <i class="mdi mdi-home menu-icon"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../timesheet.html">
+              <i class="mdi mdi-view-headline menu-icon"></i>
+              <span class="menu-title">Timesheet</span>
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Client management/Client_management.html">
+              <i class="mdi mdi-view-headline menu-icon"></i>
+              <span class="menu-title"> Client Management</span>
+            </a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="../project & task management/Project_management.html">
+                  <i class="mdi mdi-view-headline menu-icon"></i>
+                  <span class="menu-title">Prject & Task Management</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="mdi mdi-view-headline menu-icon"></i>
+                      <span class="menu-title">Team Management</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="../../Role_Management/Role_management.html">
+                          <i class="mdi mdi-view-headline menu-icon"></i>
+                          <span class="menu-title">Role Management</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" href="../../User_Management/User_Management.html">
+                              <i class="mdi mdi-view-headline menu-icon"></i>
+                              <span class="menu-title">User Management</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                  <i class="mdi mdi-view-headline menu-icon"></i>
+                                  <span class="menu-title">Reports</span>
+                                </a>
+                              </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          
+            <div class="col-md-12 stretch-card">
+                <div class="search-whole-bx">
+                    <div class="form-group has-search">
+                      <div class="search-box">
+                        <i class="material-icons"></i>
+                        <input type="text" class="form-control" placeholder="Search…">
+                      </div>
+                    </div>
+                    <div>
+                      <div>
+                        <span class="d-inline-block">
+                          <div class="floatingButtonWrap">
+                            <div class="floatingButtonInner">
+                              <a href="../project & task management/Add_Project.html" class="floatingButton" data-toggle="tooltip"
+                                title="Create New Project">
+                                Create New Project
+                              </a>
+          
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+        
+        </div>
+       
+        <div class="content-wrapper">
+
+          <table class="" role="grid">
+
+            <table class="table table-primary table-sortable responsive" role="grid">
+                <thead>
+                  <tr class="header-style">
+                    <th class="header" scope="col" role="columnheader"><span>Sr No</span></th>
+                    
+                    <th class=" header" scope="col" role="columnheader"><span>Project </span></th>
+                    <th class=" header" scope="col" role="columnheader"><span>Client</span></th>
+                    <th class=" header" scope="col" role="columnheader"><span>Created By</span></th>
+                    <th class=" header" scope="col" role="columnheader"><span>Est.hrs</span></th>
+                    <th class=" header" scope="col" role="columnheader"><span>Archeived</span></th>
+                   
+                   
+  
+                    <th><span>Action </span></th>
+                  </tr>
+  
+                </thead>
+                <tbody>
+                  <tr class="Colm-style">
+                    <td>
+                      <div class="small-header">1</div>
+                    </td>
+                    <td class=""><a href="../project & task management/Task_management.html" >Project A</a></td>
+                    <td class="">Client A </td>
+                    <td class="">Benita</td>
+                    <td class="">100</td>
+                    <td class="">Yes</td>
+                    <td class="">
+                      <a class="edit" href="../project & task management/Edit_Project.html" data-toggle="tooltip"
+                        data-original-title="Edit">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <a class="delete" title="" data-toggle="tooltip" data-original-title="Delete">
+                          <i class="fa fa-trash-o" aria-hidden="true"></i>
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                    </td>
+  
+                  </tr>
+  
+                  <tr>
+                    <td class="">
+                      <div class="small-header">2</div>
+                    </td>
+                    <td class=""><a href="../project & task management/Task_management.html" >Project B</a></td>
+                    <td class="">Client B</td>
+                    <td class="">Benno</td>
+                    <td class="">70</td>
+                    <td class="">No</td>
+                    <td class="">
+                      <a class="edit" href="../project & task management/Edit_Project.html" data-toggle="tooltip"
+                        data-original-title="Edit">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <a class="delete" title="" data-toggle="tooltip" data-original-title="Delete">
+                          <i class="fa fa-trash-o" aria-hidden="true"></i>
+                         
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                    </td>
+  
+                  </tr>
+                  <tr class="Colm-style">
+                    <td>
+                      <div class="small-header">3</div>
+                    </td>
+                    <td class=""><a href="../project & task management/Task_management.html" >Project C</a></td>
+                    <td class="">Client C </td>
+                    <td class=""> Benno</td>
+                    <td class="">400</td>
+                    <td class="">No</td>
+                    <td class="">
+                      <a class="edit" href="../project & task management/Edit_Project.html" data-toggle="tooltip"
+                        data-original-title="Edit">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <a class="delete" title="" data-toggle="tooltip" data-original-title="Delete">
+                          <i class="fa fa-trash-o" aria-hidden="true"></i>
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                        
+                    </td>
+  
+                  </tr>
+                  
+                 
+                </tbody>
+              </table>
+           
+           
+        </div>
+        <div class="col-md-12">
+                <div class="dataTables_paginate paging_simple_numbers" id="dom-jqry_paginate">
+                  <ul class="pagination">
+                    <li class="paginate_button page-item previous disabled" id="dom-jqry_previous"><a href="#"
+                        aria-controls="dom-jqry" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
+                    </li>
+                    <li class="paginate_button page-item active"><a href="#"
+                        aria-controls="dom-jqry" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
+                    <li class="paginate_button page-item "><a href="#"
+                        aria-controls="dom-jqry" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                    <li class="paginate_button page-item "><a href="#" aria-controls="dom-jqry" data-dt-idx="2"
+                        tabindex="0" class="page-link">3</a></li>
+                    <li class="paginate_button page-item "><a href="#" aria-controls="dom-jqry" data-dt-idx="2"
+                        tabindex="0" class="page-link">4</a></li>
+                    <li class="paginate_button page-item next" id="dom-jqry_next"><a href="#" aria-controls="dom-jqry"
+                        data-dt-idx="3" tabindex="0" class="page-link">Next</a></li>
+                  </ul>
+                </div>
+              </div>
+        
+    </div>
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+          <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-muted  text-sm-left d-block d-sm-inline-block">Copyright © 2019 <a
+                href="https://www.\.com/" target="_blank">Infiniti Creation</a>. All rights reserved.</span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- main-panel ends -->
+  </div>
+  <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  </div>
+  <!-- plugins:js -->
+  <script src="../../../vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../../js/off-canvas.js"></script>
+  <script src="../../../vendors/chart.js/Chart.min.js"></script>
+  <script src="../../../js/hoverable-collapse.js"></script>
+  <script src="../../../js/chart.js"></script>
+  <!-- data-toggle -->
+  <script src="../../../js/template.js"></script>
+  <script src="../../../js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+  <script>
+      function switchVisible() {
+            if (document.getElementById('right')) {
+
+                if (document.getElementById('right').style.display == 'none') {
+                    document.getElementById('right').style.display = 'table';
+                    document.getElementById('left').style.display = 'none';
+                }
+                else {
+                    document.getElementById('right').style.display = 'none';
+                    document.getElementById('left').style.display = 'table';
+                }
+            }
+}
+ </script>
+  <style>
+ 
+  </style>
+</body>
+
+</html>

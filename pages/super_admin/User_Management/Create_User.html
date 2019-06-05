@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>User Create </title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="../../vendors/base/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../../../vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../../vendors/base/vendor.bundle.base.css">
   <!-- endinject -->
   <!-- plugin css for this page -->
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../../css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="../../images/infiniti-creation.png" />
+  <link rel="shortcut icon" href="../../../images/infiniti-creation.png" />
 </head>
 
 <body>
@@ -25,9 +25,9 @@
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="navbar-brand-wrapper d-flex justify-content-center">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
-          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/infiniti-creation.png"
+          <a class="navbar-brand brand-logo" href="../../../fonts/"><img src="../../../images/infiniti-creation.png"
               alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/infiniti-creation.png"
+          <a class="navbar-brand brand-logo-mini" href="../../../index.html"><img src="../../../images/infiniti-creation.png"
               alt="logo" /></a>
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
             <span class="mdi mdi-sort-variant"></span>
@@ -37,7 +37,7 @@
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <div class="header-style">
           <a class="navbar-brand brand-logo" href="../User_Management/User_Management.html">
-            <h4>Create Admin User </h4>
+            <h4>Create User </h4>
 
           </a>
         </div>
@@ -50,7 +50,7 @@
           </li>
           <li class="nav-item nav-profile dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                  <img src="../../images/faces/face5.jpg" alt="profile" />
+                  <img src="../../../images/faces/face5.jpg" alt="profile" />
                   <span class="nav-profile-name">Louis Barnett</span>
               </a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
@@ -81,30 +81,60 @@
 
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
-      <!-- partial:../../partials/_sidebar.html -->
-      <nav class="sidebar sidebar-offcanvas" id="sidebar">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="../Tenant_Admin/Tenant_Admin.html">
-              <i class="mdi mdi-home menu-icon"></i>
-              <span class="menu-title">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../User_Management/User_Management.html">
-              <i class="mdi mdi-account-outline menu-icon"></i>
-              <span class="menu-title">Admin User Management</span>
-            </a>
-
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../LoginProcess/login.html">
-              <i class="mdi mdi-view-headline menu-icon"></i>
-              <span class="menu-title"> Reports</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+        <!-- partial:../../partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../dashboard.html">
+                <i class="mdi mdi-home menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../timesheet.html">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title">Timesheet</span>
+              </a>
+  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Client management/Client_management.html">
+                <i class="mdi mdi-view-headline menu-icon"></i>
+                <span class="menu-title"> Client Management</span>
+              </a>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="../project & task management/Project_management.html ">
+                    <i class="mdi mdi-view-headline menu-icon"></i>
+                    <span class="menu-title">Prject & Task Management</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="mdi mdi-view-headline menu-icon"></i>
+                        <span class="menu-title">Team Management</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                          <a class="nav-link" href="../Role_Management/Role_management.html">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Role Management</span>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                              <a class="nav-link" href="../User_Management/User_Management.html">
+                                <i class="mdi mdi-view-headline menu-icon"></i>
+                                <span class="menu-title">User Management</span>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                                  <a class="nav-link" href="#">
+                                    <i class="mdi mdi-view-headline menu-icon"></i>
+                                    <span class="menu-title">Reports</span>
+                                  </a>
+                                </li>
+          </ul>
+        </nav>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrappers">
@@ -174,7 +204,7 @@
                       <div class="col-md-6">
                         <div class="form-group row">
                           <label class="col-sm-12 col-form-label">Status</label>
-                          <div class="col-sm-3">
+                          <div class="col-sm-4">
                             <div class="form-check">
                               <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="membershipRadios"
@@ -227,12 +257,12 @@
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->
-  <script src="../../vendors/base/vendor.bundle.base.js"></script>
+  <script src="../../../vendors/base/vendor.bundle.base.js"></script>
   <!-- endinject -->
   <!-- inject:js -->
-  <script src="../../js/off-canvas.js"></script>
-  <script src="../../js/hoverable-collapse.js"></script>
-  <script src="../../js/template.js"></script>
+  <script src="../../../js/off-canvas.js"></script>
+  <script src="../../../js/hoverable-collapse.js"></script>
+  <script src="../../../js/template.js"></script>
   <!-- endinject -->
   <!-- End custom js for this page-->
 
