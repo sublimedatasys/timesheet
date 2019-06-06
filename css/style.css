@@ -9884,10 +9884,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-
+.box{
+  margin-bottom:-27px;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
+ 
   /* margin-right: -10px;
   margin-left: -10px; */
 }
@@ -12676,7 +12679,9 @@ fieldset:disabled a.btn {
   background-color: #686868;
   border-color: #686868;
 }
-
+.client-dropdown{
+  margin-top: 18px;
+}
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-secondary.dropdown-toggle:focus {
@@ -12712,7 +12717,10 @@ fieldset:disabled a.btn {
   background-color: #71c016;
   border-color: #71c016;
 }
-
+.dropdown-toggle{
+  
+  padding: 10px 169px;
+}
 .btn-outline-success:not(:disabled):not(.disabled):active:focus,
 .btn-outline-success:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-success.dropdown-toggle:focus {
@@ -12729,7 +12737,19 @@ fieldset:disabled a.btn {
   background-color: #7859df;
   border-color: #7859df;
 }
-
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  /* left: 10%; */
+  margin-left: 39%;
+  margin-right: 2%;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
 .btn-outline-info:focus,
 .btn-outline-info.focus {
   box-shadow: 0 0 0 0.2rem rgba(120, 89, 223, 0.5);
@@ -12995,16 +13015,6 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
-.dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  vertical-align: 0.255em;
-  content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
-}
 
 .dropdown-toggle:empty::after {
   margin-left: 0;
@@ -22584,6 +22594,7 @@ span.require {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 0;
+  margin-left:14px;
   /* margin-left: 40px; */
 }
 
@@ -24028,7 +24039,9 @@ table.table.table-primary.table-responsive {
   .head{
     padding: 25px 0px 25px 0px;
   }
-  
+  .dropdown-toggle {
+    padding: 10px 26px;
+}
   .btn-send{
     width:100%;
     margin-top: 14px;
@@ -24622,7 +24635,7 @@ table.table.table-primary.table-responsive {
 .table-sortable>thead>tr .header>span {
   cursor: pointer;
   display: inline-block;
-  padding-right: 16px;
+ 
   padding-left: 0;
 }
 
