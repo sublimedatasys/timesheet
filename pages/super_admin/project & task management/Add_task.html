@@ -172,14 +172,15 @@
                   <div class="card-body">
                     <h4 class="card-title">Create Task</h4>
                     <form class="form-sample">
-                      <div class="row">
-                        <div class="col-md-12">
+                      <div class="row box">
+                     <div class="col-md-12">
+                        <div class="col-md-6 estimate">
                           <div class="form-group row">
                             <label class="col-sm-12 col-form-label"
                               >Client Name
                               <span class="require">*</span> :</label
                             >
-                            <div class="col-sm-6">
+                            <div class="col-sm-12">
                               <input
                                 type="text"
                                 placeholder="Client Name "
@@ -187,17 +188,82 @@
                               />
                             </div>
                           </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                <div class="form-group row">
+                                  <label class="col-sm-12 col-form-label"
+                                    >Task Type:</label
+                                  >
+                                  <div class="form-check">
+                                    <label class="form-check-label" for="radio1">
+                                      <input
+                                        type="radio"
+                                        class="form-check-input"
+                                        id="radio1"
+                                        name="optradio"
+                                        value="QA"
+                                     
+                                      />QA
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label" for="radio2">
+                                      <input
+                                        type="radio"
+                                        class="form-check-input"
+                                        id="radio2"
+                                        name="optradio"
+                                        value="BA"
+                                      />BA
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input
+                                        type="radio"
+                                        class="form-check-input"
+                                        id="radio3"
+                                        name="optradio"
+                                        value="DEV"
+                                      />DEV
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input
+                                        type="radio"
+                                        class="form-check-input"
+                                        id="radio4"
+                                        name="optradio"
+                                        value="General"
+                                      />General
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <label class="form-check-label">
+                                      <input
+                                        type="radio"
+                                        class="form-check-input"
+                                        id="radio5"
+                                        name="optradio"
+                                        value="Meeting"
+                                      />Meeting
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                         </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
+                     
+                     
+                        <div class="col-md-6 work">
                           <div class="form-group row">
                             <label class="col-sm-12 col-form-label"
                               >Description:</label
                             >
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                               <textarea
-                                rows="8"
+                                rows="9"
                                 cols="100"
                                 class="form-control"
                               >
@@ -205,73 +271,10 @@
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="form-group row">
-                            <label class="col-sm-12 col-form-label"
-                              >Task Type:</label
-                            >
-                            <div class="form-check">
-                              <label class="form-check-label" for="radio1">
-                                <input
-                                  type="radio"
-                                  class="form-check-input"
-                                  id="radio1"
-                                  name="optradio"
-                                  value="QA"
-                               
-                                />QA
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label" for="radio2">
-                                <input
-                                  type="radio"
-                                  class="form-check-input"
-                                  id="radio2"
-                                  name="optradio"
-                                  value="BA"
-                                />BA
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input
-                                  type="radio"
-                                  class="form-check-input"
-                                  id="radio3"
-                                  name="optradio"
-                                  value="DEV"
-                                />DEV
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input
-                                  type="radio"
-                                  class="form-check-input"
-                                  id="radio4"
-                                  name="optradio"
-                                  value="General"
-                                />General
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input
-                                  type="radio"
-                                  class="form-check-input"
-                                  id="radio5"
-                                  name="optradio"
-                                  value="Meeting"
-                                />Meeting
-                              </label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
+                     </div>
+                    </div>
+                      
+                      <div class="row box">
                       <div class="col-md-12">
                             <div class="form-group row">
                           <div class="col-md-6 estimate">
@@ -288,6 +291,38 @@
                                           />
                                         </div>
                                       </div>
+                                      <div class="row">
+                                        <div class="col-md-12">
+                                          <div class="form-group row">
+                                            <label class="col-sm-12 col-form-label"
+                                              >Billable:</label
+                                            >
+                                            <div class="form-check">
+                                              <label class="form-check-label" for="radio11">
+                                                <input
+                                                  type="radio"
+                                                  class="form-check-input"
+                                                  id="radio11"
+                                                  name="radio"
+                                                  value="Yes"
+                                                 
+                                                />Yes
+                                              </label>
+                                            </div>
+                                            <div class="form-check">
+                                              <label class="form-check-label" for="radio22">
+                                                <input
+                                                  type="radio"
+                                                  class="form-check-input"
+                                                  id="radio22"
+                                                  name="radio"
+                                                  value="No"
+                                                />No
+                                              </label>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
                           </div>
                           <div class="col-md-6 work">
                                 <div class="form-group row">
@@ -307,39 +342,7 @@
                             </div>
                       </div>
                     </div>
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="form-group row">
-                            <label class="col-sm-12 col-form-label"
-                              >Billable:</label
-                            >
-                            <div class="form-check">
-                              <label class="form-check-label" for="radio11">
-                                <input
-                                  type="radio"
-                                  class="form-check-input"
-                                  id="radio11"
-                                  name="radio"
-                                  value="Yes"
-                                 
-                                />Yes
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label" for="radio22">
-                                <input
-                                  type="radio"
-                                  class="form-check-input"
-                                  id="radio22"
-                                  name="radio"
-                                  value="No"
-                                />No
-                              </label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
+                  
                             <div class="col-md-12">
                                   <div class="form-group row">
                                 <div class="col-md-6 estimate">
@@ -370,8 +373,8 @@
                                   </div>
                                   </div>
                             </div>
-                          </div>
-                      <div class="row row-style">
+                        
+                      <div class= "row row-style">
                         <div class="col-md-6">
                           <a
                             class="btn  btn-primary btn-lg font-weight-medium "
