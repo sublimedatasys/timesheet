@@ -21,7 +21,9 @@
     opacity: 1;
   }
 }
-
+.table-sortable>thead>tr .headerSortUp>span:before, .table-sortable>thead>tr .headerSortDown>span:before{
+  right: -21px!important;
+}
 .content-wrappers {
   background: #f3f3f3;
   width: 100%;
@@ -11055,7 +11057,11 @@ margin-right: 6px;
 
   font-size: 15px;
 }
-
+.btn-display-in{
+  display: initial;
+  margin-bottom: 17px;
+  margin-right:10px;
+}
 .floatingButton .fa {
   font-size: 15px !important;
 }
@@ -21182,7 +21188,11 @@ input:checked + .slider:before {
 }
 .stretch-card{
   float:left;
+ 
   margin-top:27px;
+}
+.head-space{
+  background:white;
 }
 .label{
   margin-bottom: 10px;
@@ -24740,4 +24750,7 @@ button.btn.btn-primary.dropdown-toggle{
 }
 .work{
   float:right;
+}
+.tabel-style{
+margin-top:15px;
 }
