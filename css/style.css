@@ -9848,6 +9848,7 @@ pre code {
 
   a.btn.btn-primary.btn-lg.font-weight-medium {
     float: left!important;
+    margin-top:20%;
   }
 }
 
@@ -11598,6 +11599,9 @@ tr.header-style {
 and (min-width : 375px) 
 and (max-width : 812px)
  { 
+   .text-right{
+     margin-top:17px;
+   }
   table.table.table-primary.table-sortable {
     overflow-x: auto;
     display: block;
@@ -24753,4 +24757,21 @@ button.btn.btn-primary.dropdown-toggle{
 }
 .tabel-style{
 margin-top:15px;
+}
+.bootstrap-tagsinput{
+  width: 100%!important;
+    border: 1px solid #30252570!important;
+
+}
+.modal-footer{
+  padding: 3rem;
+}
+.page{
+  width:29%!important;
+}
+.checkbox{
+  font-size: 35px!important;
+}
+.model-work{
+  top:20%!important;
 }
