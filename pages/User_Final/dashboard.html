@@ -49,15 +49,15 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
                         aria-labelledby="profileDropdown">
-                        <a class="dropdown-item" href="../super_admin/Profile/Profile.html">
+                        <a class="dropdown-item" href="../Profile/Profile.html">
                             <i class="mdi mdi-account-check text-primary"></i>
                             Profile
                         </a>
-                        <a class="dropdown-item" href="../super_admin/Profile/Changepwd.html">
+                        <a class="dropdown-item" href="../Profile/Changepwd.html">
                                 <i class="mdi mdi-account-key text-primary"></i>
                                 Change Password
                             </a>
-                        <a class="dropdown-item" href="../super_admin/LoginProcess/login.html">
+                        <a class="dropdown-item" href="../LoginProcess/login.html">
                             <i class="mdi mdi-logout text-primary"></i>
                             Logout
                         </a>
@@ -72,132 +72,41 @@
     </nav>
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
-        <!-- partial:../../partials/_sidebar.html -->
-        <nav class="sidebar sidebar-offcanvas" id="sidebar">
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="../super_admin/dashboard.html">
-                <i class="mdi mdi-home menu-icon"></i>
-                <span class="menu-title">Dashboard</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../super_admin/timesheet.html">
-                <i class="mdi mdi-view-headline menu-icon"></i>
-                <span class="menu-title">Timesheet</span>
-              </a>
-  
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../super_admin/Client management/Client_management.html">
-                <i class="mdi mdi-view-headline menu-icon"></i>
-                <span class="menu-title"> Client Management</span>
-              </a>
-            </li>
-            <li class="nav-item">
-                  <a class="nav-link" href="../super_admin/project & task management/Project_management.html ">
-                    <i class="mdi mdi-view-headline menu-icon"></i>
-                    <span class="menu-title">Prject & Task Management</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                      <a class="nav-link" href="../super_admin/Team_Management/Team_management.html">
-                        <i class="mdi mdi-view-headline menu-icon"></i>
-                        <span class="menu-title">Team Management</span>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                          <a class="nav-link" href="../super_admin/Role_Management/Role_management.html">
-                            <i class="mdi mdi-view-headline menu-icon"></i>
-                            <span class="menu-title">Role Management</span>
-                          </a>
-                        </li>
-                        <li class="nav-item">
-                              <a class="nav-link" href="../super_admin/User_Management/User_Management.html">
-                                <i class="mdi mdi-view-headline menu-icon"></i>
-                                <span class="menu-title">User Management</span>
-                              </a>
-                            </li>
-                            <li class="nav-item">
-                                  <a class="nav-link" href="../super_admin/Reports/Timesheet_report.html">
-                                    <i class="mdi mdi-view-headline menu-icon"></i>
-                                    <span class="menu-title">Reports</span>
-                                  </a>
-                                </li>
-          </ul>
-        </nav>
+      <!-- partial:../../partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.html">
+              <i class="mdi mdi-home menu-icon"></i>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../User_Final/timesheet.html">
+              <i class="mdi mdi-view-headline menu-icon"></i>
+              <span class="menu-title">Timesheet</span>
+            </a>
+
+          </li>
+          
+                          <li class="nav-item">
+                                <a class="nav-link" href="../User_Final/Reports/Timesheet_report.html">
+                                  <i class="mdi mdi-view-headline menu-icon"></i>
+                                  <span class="menu-title">Reports</span>
+                                </a>
+                              </li>
+        </ul>
+      </nav>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
           
-            <div class="col-md-12 stretch-card">
-           <div class="toggle">Me</div>
-                <label class="switch" >
-                    <input type="checkbox" checked>
-                    <span class="slider round" onclick="switchVisible();"></span>
-                  </label>
-                  <div class="toggle">All User</div>
-        
-        </div>
+           
        
         <div class="content-wrapper">
 
-          <table class="" role="grid">
-
-            <table class="table table-primary table-sortable responsive" role="grid" id="right">
-              <thead>
-                <tr class="header-style">
-                  <th class="header" scope="col" role="columnheader"><span>Sr No</span></th>
-                 
-                  <th class=" header" scope="col" role="columnheader"><span> Name </span></th>
-                  <th class=" header" scope="col" role="columnheader"><span>Email </span></th>
-                  <th class=" header" scope="col" role="columnheader"><span>Team </span></th>
-                  <th class=" header" scope="col" role="columnheader"><span>Total Hours</span></th>
-
-                
-                </tr>
-
-              </thead>
-              <tbody>
-                <tr class="Colm-style">
-                  <td>
-                    <div class="small-header">1</div>
-                  </td>
-                  <td class="">Anu</td>
-                  <td class="">anu@yopmail.com</td>
-                  <td class="">Dev,QA</td>
-                  <td class=""> 40</td>
-                
-
-                  
-                </tr>
-
-                <tr>
-                  <td class="">
-                    <div class="small-header">2</div>
-                  </td>
-                  <td class="">Ciya</td>
-                  <td class="">ciya@yopmail.com </td>
-                  <td class="">PM,QA</td>
-                  <td class=""> 56</td>
-                  
-
-                </tr>
-                <tr class="Colm-style">
-                  <td>
-                    <div class="small-header">3</div>
-                  </td>
-                  <td class="">Arun</td>
-                  <td class="">arun@yopmail.com</td>
-                  <td class="">N/A</td>
-                  <td class="">24</td>
-                 
-
-                </tr>
-                
-              </tbody>
-            </table>
-            <table class="table table-primary table-sortable responsive" role="grid" id="left">
+          
+            <table class="table table-primary table-sortable responsive" role="grid">
                 <thead>
                   <tr class="header-style">
                     <th class="header" scope="col" role="columnheader"><span>Sr No</span></th>
