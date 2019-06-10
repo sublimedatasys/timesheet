@@ -5,17 +5,17 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Add Organization</title>
+  <title>User Create </title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="../../vendors/base/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../../../vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../../vendors/base/vendor.bundle.base.css">
   <!-- endinject -->
   <!-- plugin css for this page -->
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../../css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="../../images/infiniti-creation.png" />
+  <link rel="shortcut icon" href="../../../images/infiniti-creation.png" />
 </head>
 
 <body>
@@ -25,9 +25,9 @@
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="navbar-brand-wrapper d-flex justify-content-center">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
-          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/infiniti-creation.png"
+          <a class="navbar-brand brand-logo" href="../../../fonts/"><img src="../../../images/infiniti-creation.png"
               alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/infiniti-creation.png"
+          <a class="navbar-brand brand-logo-mini" href="../../../index.html"><img src="../../../images/infiniti-creation.png"
               alt="logo" /></a>
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
             <span class="mdi mdi-sort-variant"></span>
@@ -36,37 +36,38 @@
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         <div class="header-style">
-          <a class="navbar-brand brand-logo" href="../Tenant_Admin/Tenant_Admin.html">
-          <h4>Add Organization</h4>
+          <a class="navbar-brand brand-logo" href="../User_Management/User_Management.html">
+            <h4>Create User </h4>
 
           </a>
         </div>
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item dropdown mr-1">
+
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
+
             </div>
           </li>
-         
           <li class="nav-item nav-profile dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                  <img src="../../images/faces/face5.jpg" alt="profile" />
+                  <img src="../../../images/faces/face5.jpg" alt="profile" />
                   <span class="nav-profile-name">Louis Barnett</span>
               </a>
               <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
-                  aria-labelledby="profileDropdown">
-                  <a class="dropdown-item" href="../Profile/Profile.html">
-                      <i class="mdi mdi-account-check text-primary"></i>
-                      Profile
+              aria-labelledby="profileDropdown">
+              <a class="dropdown-item" href="../../super_admin/Profile/Profile.html">
+                  <i class="mdi mdi-account-check text-primary"></i>
+                  Profile
+              </a>
+              <a class="dropdown-item" href="../../super_admin/Profile/Changepwd.html">
+                      <i class="mdi mdi-account-key text-primary"></i>
+                      Change Password
                   </a>
-                  <a class="dropdown-item" href="../Profile/Changepwd.html">
-                          <i class="mdi mdi-account-key text-primary"></i>
-                          Change Password
-                      </a>
-                  <a class="dropdown-item" href="../LoginProcess/login.html">
-                      <i class="mdi mdi-logout text-primary"></i>
-                      Logout
-                  </a>
-              </div>
+              <a class="dropdown-item" href="../../super_admin/LoginProcess/login.html">
+                  <i class="mdi mdi-logout text-primary"></i>
+                  Logout
+              </a>
+          </div>
           </li>
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
@@ -75,30 +76,33 @@
         </button>
       </div>
     </nav>
+
+
+
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="../Tenant_Admin/Tenant_Admin.html">
+            <a class="nav-link" href="../Tenant_Admin.html">
               <i class="mdi mdi-home menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../Tenant_Admin/User_Management/User_Management.html">
-              <i class="mdi mdi-account-outline menu-icon"></i>
-              <span class="menu-title">Admin User Management</span>
-            </a>
-
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../LoginProcess/login.html">
-              <i class="mdi mdi-view-headline menu-icon"></i>
-              <span class="menu-title"> Reports</span>
-            </a>
-          </li>
+        
+                      <li class="nav-item">
+                            <a class="nav-link" href="../User_Management/User_Management.html">
+                              <i class="mdi mdi-view-headline menu-icon"></i>
+                              <span class="menu-title">Admin User Management</span>
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="../../LoginProcess/login.html">
+                                  <i class="mdi mdi-view-headline menu-icon"></i>
+                                  <span class="menu-title">Reports</span>
+                                </a>
+                              </li>
         </ul>
       </nav>
       <!-- partial -->
@@ -108,115 +112,74 @@
             <div class="col-12 grid-margin boxshadow">
               <div class="card boxshadow">
                 <div class="card-body">
-                  <div data-v-4bffa81c="" class="trapezoid"></div>
-                  <div data-v-4bffa81c="" class="trap">SPOC</div>
-                  <h4 class="card-title">Add Organization</h4>
-                  <form class="form-sample">
-
-                    <div class="row">
-
-                      <div class="col-md-12">
-                        <div class="form-group row">
-                          <label class="col-sm-12 col-form-label">Organization Name <span class="require">*</span>
-                            :</label>
-                          <div class="col-sm-12">
-                            <input type="text" placeholder="Organization Name " class="form-control" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-12 col-form-label">SPOC First Name :</label>
-                          <div class="col-sm-12">
-                            <input type="text" placeholder="SPOC First Name " class="form-control" />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group row">
-                          <label class="col-sm-12 col-form-label">SPOC Last Name :</label>
-                          <div class="col-sm-12">
-                            <input type="text" placeholder="SPOC Last Name" class="form-control" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group row">
-                          <label class="col-sm-12 col-form-label">SPOC Email Id :</label>
-                          <div class="col-sm-12">
-                            <input type="text" placeholder="SPOC Email Id " class="form-control" />
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 grid-margin boxshadow">
-              <div class="card boxshadow">
-                <div class="card-body">
-                  <div data-v-4bffa81c="" class="trapezoid"></div>
-                  <div data-v-4bffa81c="" class="trap">Admin</div>
+                  <h3 class="card-title">CREATE USER</h3>
                   <form class="form-sample">
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-12 col-form-label">Admin First Name <span class="require">*</span>
-                            :</label>
+                          <label class="col-sm-12 col-form-label"> First Name :</label>
                           <div class="col-sm-12">
-                            <input type="text" placeholder="Admin First Name " class="form-control" />
+                            <input type="text" placeholder="First Name" class="form-control" />
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-12 col-form-label">Admin Last Name <span class="require">*</span>
-                            :</label>
+                          <label class="col-sm-12 col-form-label"> Last Name :</label>
                           <div class="col-sm-12">
-                            <input type="text" placeholder="Admin Last Name" class="form-control" />
+                            <input type="text" placeholder="Last Name" class="form-control" />
                           </div>
                         </div>
                       </div>
                     </div>
-
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group row">
-                          <label class="col-sm-12 col-form-label">Admin Email Id <span class="require">*</span>
-                            :</label>
+                          <label class="col-sm-12 col-form-label">Last Name :</label>
                           <div class="col-sm-12">
-                            <input type="text" placeholder="Admin Email Id " class="form-control" />
+                            <input type="text" placeholder="Last Name" class="form-control" />
                           </div>
                         </div>
                       </div>
 
                     </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label">Team :</label>
+                          <div class="col-sm-12">
+                            <input type="text" placeholder="Team" class="form-control" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group row">
+                          <label class="col-sm-12 col-form-label">Role :</label>
+                          <div class="col-sm-12">
+                            <input type="text" placeholder="Role" class="form-control" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group row">
-                          <label class="col-sm-12 col-form-label">Price per user(In USD)<span class="require">*</span>
-                            :</label>
+                          <label class="col-sm-12 col-form-label">Rate :</label>
                           <div class="col-sm-12">
-                            <input type="text" placeholder="Price per user" class="form-control" />
+                            <input type="text" placeholder="Rate" class="form-control" />
                           </div>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group row">
                           <label class="col-sm-12 col-form-label">Status</label>
-                          <div class="col-sm-3">
+                          <div class="col-sm-4">
                             <div class="form-check">
                               <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="membershipRadios"
                                   id="membershipRadios1" value="" checked>
-                                Yes
+                                Active
                               </label>
                             </div>
                           </div>
@@ -225,7 +188,7 @@
                               <label class="form-check-label">
                                 <input type="radio" class="form-check-input" name="membershipRadios"
                                   id="membershipRadios2" value="option2">
-                                No
+                                Inactive
                               </label>
                             </div>
                           </div>
@@ -235,21 +198,17 @@
                     <div class="row row-style">
                       <div class="col-md-6">
                         <a class="btn  btn-primary btn-lg font-weight-medium "
-                          href="../Tenant_Admin/Tenant_Admin.html">Submit</a>
+                          href="../User_Management/User_Management.html">Submit</a>
                       </div>
                       <div class="col-md-6">
                         <a class="btn  btn-default btn-lg font-weight-medium "
-                          href="../Tenant_Admin/Tenant_Admin.html">Cancel</a>
+                          href="../User_Management/User_Management.html">Cancel</a>
                       </div>
                     </div>
-
                   </form>
                 </div>
               </div>
             </div>
-
-
-
           </div>
         </div>
         <!-- content-wrapper ends -->
@@ -268,14 +227,14 @@
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->
-  <script src="../../vendors/base/vendor.bundle.base.js"></script>
+  <script src="../../../vendors/base/vendor.bundle.base.js"></script>
   <!-- endinject -->
   <!-- inject:js -->
-  <script src="../../js/off-canvas.js"></script>
-  <script src="../../js/hoverable-collapse.js"></script>
-  <script src="../../js/template.js"></script>
+  <script src="../../../js/off-canvas.js"></script>
+  <script src="../../../js/hoverable-collapse.js"></script>
+  <script src="../../../js/template.js"></script>
   <!-- endinject -->
-  <!-- Custom js for this page-->
+  <!-- End custom js for this page-->
 
 </body>
 
