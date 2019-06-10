@@ -13057,7 +13057,7 @@ fieldset:disabled a.btn {
 
 .btn-lg,
 .btn-group-lg>.btn {
-  padding: 1rem 1rem;
+  padding: 1rem 3rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.1875rem;
@@ -24878,4 +24878,7 @@ margin-top:15px;
 }
 .d-xl-flex.border-md-right.flex-grow-1.align-items-center.justify-content-center.p-3.item{
   text-align: center;
+}
+.drop-icon{
+  margin-left:129px;
 }
