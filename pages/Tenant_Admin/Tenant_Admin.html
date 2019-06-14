@@ -17,7 +17,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="../../css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="../../images/infiniti-creation.png" />
+  <link rel="shortcut icon" href="../../images/logo.jpg" />
 </head>
 
 <body>
@@ -26,9 +26,9 @@
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="navbar-brand-wrapper d-flex justify-content-center">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
-          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/infiniti-creation.png"
+          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/logo.jpg"
               alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/infiniti-creation.png"
+          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo.jpg"
               alt="logo" /></a>
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
             <span class="mdi mdi-sort-variant"></span>
@@ -171,8 +171,7 @@
               <span class="d-inline-block">
                 <div class="floatingButtonWrap">
                   <div class="floatingButtonInner">
-                    <a href="../Tenant_Admin/Add_Organization.html" class="floatingButton" data-toggle="tooltip"
-                      title="Create New Org">
+                    <a href="../Tenant_Admin/Add_Organization.html" class="floatingButton">
                       Create New Org
                     </a>
 
@@ -189,11 +188,11 @@
             <table class="table table-primary table-sortable responsive" role="grid">
               <thead>
                 <tr class="header-style">
-                  <th class="header" scope="col" role="columnheader"><span>Sr No</span></th>
+                  <th class="header" scope="col" role="columnheader"><span>#</span></th>
                   <th class=" header" scope="col" role="columnheader"><span style="
-                  display: inline;">Organization Name </span></th>
-                  <th class=" header" scope="col" role="columnheader"><span>SPOC Name </span></th>
-                  <th class=" header" scope="col" role="columnheader"><span>Admin Name </span></th>
+                  display: inline;">Organization </span></th>
+                  <th class=" header" scope="col" role="columnheader"><span>SPOC</span></th>
+                  <th class=" header" scope="col" role="columnheader"><span>Admin </span></th>
                   <th class=" header" scope="col" role="columnheader"><span>Status </span></th>
                   <th class=" header" scope="col" role="columnheader"><span>No. Of Users</span></th>
 
@@ -303,23 +302,47 @@
               </div>
             </div>
             <div>
-              <div class="dataTables_paginate paging_simple_numbers" id="dom-jqry_paginate">
-                <ul class="pagination">
-                  <li class="paginate_button page-item previous disabled" id="dom-jqry_previous"><a href="#"
-                      aria-controls="dom-jqry" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
-                  </li>
-                  <li class="paginate_button page-item active"><a href="../Tenant_Admin/Tenant_Admin.html"
-                      aria-controls="dom-jqry" data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
-                  <li class="paginate_button page-item "><a href="../Tenant_Admin/Tenant_Admin.html"
-                      aria-controls="dom-jqry" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
-                  <li class="paginate_button page-item "><a href="#" aria-controls="dom-jqry" data-dt-idx="2"
-                      tabindex="0" class="page-link">3</a></li>
-                  <li class="paginate_button page-item "><a href="#" aria-controls="dom-jqry" data-dt-idx="2"
-                      tabindex="0" class="page-link">4</a></li>
-                  <li class="paginate_button page-item next" id="dom-jqry_next"><a href="#" aria-controls="dom-jqry"
-                      data-dt-idx="3" tabindex="0" class="page-link">Next</a></li>
-                </ul>
+             
+            <div class="dataTables_paginate paging_simple_numbers" id="dom-jqry_paginate">
+               
+                  <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&lsaquo;</span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&rsaquo;</span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+               
               </div>
+              
+             
+              
             </div>
         </div>
 
@@ -327,7 +350,7 @@
         <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
             <span class="text-muted  text-sm-left d-block d-sm-inline-block">Copyright © 2019 <a
-                href="https://www.\.com/" target="_blank">Infiniti Creation</a>. All rights reserved.</span>
+                href="https://www.\.com/" target="_blank">XACT</a>. All rights reserved.</span>
           </div>
         </footer>
         <!-- partial -->
@@ -356,6 +379,7 @@
       $('[data-toggle="tooltip"]').tooltip();
     });
   </script>
+  
   <style>
  
   </style>
