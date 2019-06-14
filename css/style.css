@@ -18524,7 +18524,7 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
-  box-shadow: 5px 10px 18px #88888869;
+ 
 }
 
 @media (min-width: 576px) {
@@ -21798,7 +21798,8 @@ input:checked + .slider:before {
 
 .btn.btn-lg,
 .btn-group-lg>.btn {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .btn.btn-xs {
@@ -22711,7 +22712,7 @@ span.require {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 0;
-  margin-left:14px;
+  
   /* margin-left: 40px; */
 }
 
@@ -22724,7 +22725,7 @@ h5.mr-2.mb-0 {
   min-height: 18px;
   display: block;
   margin-left: 1.75rem;
-  font-size: 0.875rem;
+  font-size: 17px;
   line-height: 1.5;
 }
 
@@ -23783,7 +23784,8 @@ dl li {
 }
 
 .auth .brand-logo {
-  margin-bottom: 2rem;
+  margin-bottom: 24px;
+  margin-top: 16px;
 }
 
 .auth .brand-logo img {
@@ -23797,7 +23799,7 @@ dl li {
 }
 
 .auth form .form-group label {
-  font-size: 1.1125rem;
+  font-size: 17px;
   margin-top: 18px;
 }
 
@@ -23819,11 +23821,12 @@ a.btn.btn-block.btn-primary.btn-lg.font-weight-mediums.auth-form-btn {
 }
 
 .auth form .auth-link {
-  font-size: 0.875rem;
+  font-size: 17px;
+  text-decoration: none;
 }
 
 .auth form .auth-link:hover {
-  color: initial;
+  color: blue;
 }
 
 .page-body-wrapper {
@@ -24879,9 +24882,18 @@ margin-top:15px;
 .d-xl-flex.border-md-right.flex-grow-1.align-items-center.justify-content-center.p-3.item{
   text-align: center;
 }
-<<<<<<< HEAD
+
 .drop-icon{
   margin-left:129px;
 }
-=======
->>>>>>> origin/master
+.brand-logo{
+  text-align: center;
+}
+a:hover{
+cursor: pointer;
+}
+
+.drop-icon{
+  margin-left:129px;
+}
+
