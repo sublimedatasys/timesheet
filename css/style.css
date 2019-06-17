@@ -9458,7 +9458,7 @@ caption {
   caption-side: bottom;
 }
 .trapezoid {
-  border-bottom: 43px solid #5abbbb;
+  border-bottom: 43px solid #00BCD4;
   border-left: 33px solid transparent;
   border-right: 0px solid transparent;
   height: 0;
@@ -22860,28 +22860,7 @@ h5.mr-2.mb-0 {
   right: 0;
 }
 
-.form-check .form-check-label input[type="radio"]+.input-helper:after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background: #ffffff;
-  border-radius: 50%;
-  top: 6px;
-  left: 6px;
-  -webkit-transition: all;
-  -o-transition: all;
-  transition: all;
-  transition-duration: 0s;
-  -webkit-transition-duration: 250ms;
-  transition-duration: 250ms;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  position: absolute;
-}
+
 
 .rtl .form-check .form-check-label input[type="radio"]+.input-helper:after {
   left: auto;
@@ -24766,7 +24745,7 @@ table.table.table-primary.table-responsive {
   padding-left: 0;
 }
 
-.table-sortable>thead>tr .header.>span {
+.table-sortable>thead>tr .header>span {
   padding-left: 16px;
   padding-right: 0;
 }
@@ -24903,7 +24882,6 @@ cursor: pointer;
 .drop-icon{
   margin-left:129px;
 }
-<<<<<<< HEAD
 a.edit {
   margin-right: 11px;
 }
@@ -24913,6 +24891,19 @@ text-align: center;
 i.fa.fa-eye {
   margin-left: 10px;
 }
-=======
->>>>>>> origin/master
+.password-model{
+  top:25%;
+}
+.footer-model{
+  justify-content: center;
+}
+.d-flex.border-md-right.flex-grow-1.align-items-center.justify-content-center.p-3.item:hover {
+  background: #a2dce273;
+}
+.btn-check{
+  margin-left: 22px;
+}
+.d-sm-flex.justify-content-center.justify-content-sm-between {
+  margin-top: 27px;
+}
 
