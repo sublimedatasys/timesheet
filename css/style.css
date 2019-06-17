@@ -9398,7 +9398,7 @@ a {
 
 a:hover {
   /* color: #0056b3; */
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -9458,7 +9458,7 @@ caption {
   caption-side: bottom;
 }
 .trapezoid {
-  border-bottom: 43px solid #5abbbb;
+  border-bottom: 43px solid #00BCD4;
   border-left: 33px solid transparent;
   border-right: 0px solid transparent;
   height: 0;
@@ -9707,7 +9707,7 @@ small,
   font-weight: 400;
 }
 .small-header {
-  margin-left: 11px;
+text-align:center;
 }
 .small-center {
   margin-left: 15px;
@@ -10909,23 +10909,27 @@ pre code {
 .pd-setting {
   background-color: #CCF4DD;
   border: #aaf3c9;
-  color: #39C877;
-  padding: 7px 22px 7px 13px;
-  box-shadow: 5px 10px 18px #8888885e;
+  color: #496957;
+  width: 68%;
+  text-align: center;
+  padding: 7px 2px 7px 2px;
 }
 
 .pa-setting {
   background-color: #FFF4E6;
   border: #FFF4E6;
-  color: #F9B257;
-  padding: 7px 22px 7px 13px;
-  box-shadow: 5px 10px 18px #8888885e;
+  color: #a56f2a;
+  width: 68%;
+  text-align: center;
+  padding: 7px 2px 7px 2px;
 }
 
 table.table-striped.table-hover tbody tr:hover {
   background: #f5f5f5;
 }
-
+tbody{
+  font-size: 15px;
+}
 .color-title {
   background-color: #e8e8e8d9 !important;
   color: black;
@@ -11039,8 +11043,9 @@ margin-right: 6px;
 }
 .floatingButton {
   display: block;
-  width: 150px;
+  width: 153px;
   height: 43px;
+  font-weight: bold;
   text-align: center;
   background: -webkit-linear-gradient(45deg, #b1dce2, #00BCD4);
   background: -o-linear-gradient(45deg, #00BCD4, #00BCD4);
@@ -11301,10 +11306,12 @@ table.table.table-primary.table-sortable {
   margin-bottom: 1rem;
   color: #212529;
 }
+.table th{
+  padding: 19px 0.9375rem;
+}
 
-.table th,
 .table td {
-  padding: 1.25rem 0.9375rem;
+  padding: 11px 0.9375rem;
   vertical-align: top;
   border-top: 1px solid #f3f3f3;
 }
@@ -22853,28 +22860,7 @@ h5.mr-2.mb-0 {
   right: 0;
 }
 
-.form-check .form-check-label input[type="radio"]+.input-helper:after {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background: #ffffff;
-  border-radius: 50%;
-  top: 6px;
-  left: 6px;
-  -webkit-transition: all;
-  -o-transition: all;
-  transition: all;
-  transition-duration: 0s;
-  -webkit-transition-duration: 250ms;
-  transition-duration: 250ms;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  position: absolute;
-}
+
 
 .rtl .form-check .form-check-label input[type="radio"]+.input-helper:after {
   left: auto;
@@ -23978,7 +23964,7 @@ a.btn.btn-block.btn-primary.btn-lg.font-weight-mediums.auth-form-btn {
 .sidebar .nav .nav-item .nav-link .menu-title {
   color: inherit;
   display: inline-block;
-  font-size: 0.875rem;
+  font-size: 15px;
   line-height: 1;
   vertical-align: middle;
 }
@@ -24078,7 +24064,7 @@ table.table.table-primary.table-responsive {
 }
 .table>thead>tr th:first-of-type, .table>tbody>tr th:first-of-type, .table>thead>tr td:first-of-type, .table>tbody>tr td:first-of-type
 {
-  
+  text-align: center;
     padding-left:24px!important;
     padding-right:20px;
   }
@@ -24759,7 +24745,7 @@ table.table.table-primary.table-responsive {
   padding-left: 0;
 }
 
-.table-sortable>thead>tr .header.>span {
+.table-sortable>thead>tr .header>span {
   padding-left: 16px;
   padding-right: 0;
 }
@@ -24822,7 +24808,7 @@ button.btn.btn-primary.dropdown-toggle{
 .fileUpload {
   position: relative;
   overflow: hidden;
-  padding: 16px;
+  padding: 14px;
 }
 .fileUpload input.upload {
   position: absolute;
@@ -24895,5 +24881,29 @@ cursor: pointer;
 
 .drop-icon{
   margin-left:129px;
+}
+a.edit {
+  margin-right: 11px;
+}
+.main-width{
+text-align: center;
+}
+i.fa.fa-eye {
+  margin-left: 10px;
+}
+.password-model{
+  top:25%;
+}
+.footer-model{
+  justify-content: center;
+}
+.d-flex.border-md-right.flex-grow-1.align-items-center.justify-content-center.p-3.item:hover {
+  background: #a2dce273;
+}
+.btn-check{
+  margin-left: 22px;
+}
+.d-sm-flex.justify-content-center.justify-content-sm-between {
+  margin-top: 27px;
 }
 
