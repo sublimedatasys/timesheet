@@ -11630,6 +11630,7 @@ and (max-width : 640px){
     display: block;
     margin-left:0px;
   }
+  
   table.table.table-primary.table-sortable {
     overflow-x: auto;
     display: block;
@@ -11656,6 +11657,10 @@ and (max-width : 568px)
     width: 100%;
     text-align:center;
   }
+  .main-parent{
+    padding: 0px;
+  }
+  
   a.btn.btn-default.btn-lg.font-weight-medium{
     width: 100%;
     text-align:center;
@@ -11699,6 +11704,10 @@ and (max-width : 1024px){
     display: block;
    
 }
+.main-parent{
+  padding: 0px;
+}
+
 div#dom-jqry_paginate{
   width: 42%;
 }
@@ -11710,6 +11719,10 @@ and (max-width : 812px)
    .text-right{
      margin-top:17px;
    }
+   .main-parent{
+    padding: 0px;
+  }
+  
   table.table.table-primary.table-sortable {
     overflow-x: auto;
     display: block;
@@ -11756,9 +11769,6 @@ div#dom-jqry_paginate{
     border: 0;
   }
 
-  .content-wrappers {
-    padding: 1.1rem 1.04rem;
-  }
 
   div#dom-jqry_paginate {
     width: 100%;
@@ -13064,7 +13074,7 @@ fieldset:disabled a.btn {
 
 .btn-lg,
 .btn-group-lg>.btn {
-  padding: 1rem 1rem;
+  padding: 1rem 3rem;
   font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.1875rem;
@@ -15869,10 +15879,7 @@ a.close.disabled {
   overflow: hidden;
 }
 
-.modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
+
 
 .modal {
   position: fixed;
@@ -22733,7 +22740,7 @@ h5.mr-2.mb-0 {
   display: block;
   margin-left: 1.75rem;
   font-size: 17px;
-  line-height: 1.5;
+ 
 }
 
 .rtl .form-check .form-check-label {
@@ -23770,7 +23777,7 @@ dl li {
 }
 
 .auth .brand-logo {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   margin-top: 16px;
 }
 
@@ -23812,7 +23819,7 @@ a.btn.btn-block.btn-primary.btn-lg.font-weight-mediums.auth-form-btn {
 }
 
 .auth form .auth-link:hover {
-  color: blue;
+  color: #1078b9;
 }
 
 .page-body-wrapper {
@@ -24148,6 +24155,7 @@ table.table.table-primary.table-responsive {
   .dropdown-toggle {
     padding: 10px 26px;
 }
+
   .btn-send{
     width:100%;
     margin-top: 14px;
@@ -24896,6 +24904,7 @@ i.fa.fa-eye {
 }
 .footer-model{
   justify-content: center;
+  border-top:none;
 }
 .d-flex.border-md-right.flex-grow-1.align-items-center.justify-content-center.p-3.item:hover {
   background: #a2dce273;
@@ -24906,4 +24915,19 @@ i.fa.fa-eye {
 .d-sm-flex.justify-content-center.justify-content-sm-between {
   margin-top: 27px;
 }
-
+.second-part{
+ padding-left:3px;
+padding-right:3px;
+}
+a.clone {
+  margin-left: 10px;
+}
+h6{
+  line-height: 1.5;
+}
+.modal-content{
+  overflow-y: inherit;
+}
+.pass-field{
+  margin-bottom: 31px;
+}
